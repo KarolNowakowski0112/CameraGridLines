@@ -14,4 +14,16 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp" />
 
+    <ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="450dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@android:drawable/progress_horizontal"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"/>
+
+
 </RelativeLayout>

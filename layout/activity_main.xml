@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,5 +14,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="0dp" />
-    
-</RelitiveLayout>
+
+    <ProgressBar
+        android:id="@+id/bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="635dp"
+        android:layout_marginStart="125dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@android:drawable/progress_horizontal"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"/>
+
+
+</RelativeLayout>
